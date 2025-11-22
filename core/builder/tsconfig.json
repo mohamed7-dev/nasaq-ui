@@ -1,0 +1,10 @@
+{
+  "extends": "@nasaq/ts-config/base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "dist"]
+}

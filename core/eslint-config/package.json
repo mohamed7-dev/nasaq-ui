@@ -1,0 +1,30 @@
+{
+  "name": "@nasaq/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./index.js",
+    "./react-component": "./react-component.js"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "@nasaq/ts-config": "workspace:*",
+    "eslint": "^9.38.0",
+    "eslint-plugin-storybook": "^9.1.13"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.18"
+  },
+  "dependencies": {
+    "@chance/eslint": "^1.1.0"
+  }
+}

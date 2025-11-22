@@ -1,0 +1,9 @@
+{
+  "schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@nasaq/ts-config/react-component.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

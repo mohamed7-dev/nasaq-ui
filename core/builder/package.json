@@ -1,0 +1,24 @@
+{
+  "name": "@nasaq/builder",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "main": "builder.js",
+  "exports": {
+    ".": "./builder.js"
+  },
+  "bin": {
+    "build": "./build.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.11",
+    "tsup": "^8.5.0"
+  },
+  "devDependencies": {
+    "@nasaq/eslint-config": "workspace:*",
+    "@nasaq/ts-config": "workspace:*",
+    "eslint": "^9.38.0",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.17.1"
+}
