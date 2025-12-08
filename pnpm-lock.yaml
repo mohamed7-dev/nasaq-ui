@@ -170,6 +170,46 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/focus-scope:
+    dependencies:
+      '@nasaq/primitive':
+        specifier: workspace:*
+        version: link:../primitive
+      '@nasaq/use-callback-ref':
+        specifier: workspace:*
+        version: link:../use-callback-ref
+      '@nasaq/use-compose-refs':
+        specifier: workspace:*
+        version: link:../use-compose-refs
+    devDependencies:
+      '@nasaq/builder':
+        specifier: workspace:*
+        version: link:../../core/builder
+      '@nasaq/eslint-config':
+        specifier: workspace:*
+        version: link:../../core/eslint-config
+      '@nasaq/ts-config':
+        specifier: workspace:*
+        version: link:../../core/ts-config
+      '@types/react':
+        specifier: ^19.2.2
+        version: 19.2.2
+      '@types/react-dom':
+        specifier: ^19.2.2
+        version: 19.2.2(@types/react@19.2.2)
+      eslint:
+        specifier: ^9.38.0
+        version: 9.38.0
+      react:
+        specifier: ^19.2.0
+        version: 19.2.0
+      react-dom:
+        specifier: ^19.2.0
+        version: 19.2.0(react@19.2.0)
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
   packages/portal:
     dependencies:
       '@nasaq/primitive':
